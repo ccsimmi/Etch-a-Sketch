@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body { 
+    background-color: aliceblue;
+}
+
+h1{
+    text-align: center;
+}
+
+button{
+margin: 10px;
+outline: none;
+border-radius: 5px;
+background-color: #282828;
+color: white;
+padding: 10px;
+border: none;
+cursor: pointer;
+}
+
+.container{
+    max-width: 500px;
+    min-height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.babyDiv{
+    border: 1px solid black;
+}
+
